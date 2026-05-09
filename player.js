@@ -4,7 +4,7 @@ document.getElementById('player-root').innerHTML = `
         <div id="loadingSpinner" class="loading-spinner"></div>
         <div class="ultraflix-watermark" id="ultraflixWatermark">
             <div class="uf-powered">Powered by</div>
-            <div class="uf-brand">B-2 TECH</div>
+            <div class="uf-brand">SENUR</div>
         </div>
     </div>
 `;
