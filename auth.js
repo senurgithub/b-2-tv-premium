@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
 
     // නව URL එක (jsDelivr)
-    const GITHUB_AUTH_URL = "https://raw.githubusercontent.com/Saman-Pushpa-Kumara/AI/refs/heads/main/B-2/spirit/password.js";
+    const GITHUB_AUTH_URL = "https://raw.githubusercontent.com/senurgithub/b-2-tv-premium/refs/heads/main/password.js";
 
     const authOverlay = document.getElementById('authOverlay');
     const authBox = document.getElementById('authBox');
