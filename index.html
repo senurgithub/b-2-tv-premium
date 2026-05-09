@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B-2 STEALTH – Premium Live TV</title>
+
+    <!-- iOS Meta Tags -->
+    <meta name="theme-color" content="#050505">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="https://i.imgur.com/yaOex69.png">
+
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Shaka Player Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.1/shaka-player.ui.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.1/controls.css">
+    
+    <!-- Link External CSS -->
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <!-- Roots for External Components -->
+    <div id="auth-root"></div>
+    <div id="pwa-root"></div>
+    <div id="header-root"></div>
+
+    <!-- MAIN LAYOUT -->
+    <div class="main-content">
+        <!-- PLAYER -->
+        <div id="player-root" class="player-container"></div>
+        
+        <!-- CHANNELS -->
+        <div id="category-root" class="channels-scroll-area"></div>
+    </div>
+      <!-- Roots for Info -->
+    <div id="info-root"></div>
+
+    <!-- Copyright Text -->
+    <div style="position: fixed; bottom: 8px; width: 100%; text-align: center; color: rgba(255, 255, 255, 0.4); font-family: 'Poppins', sans-serif; font-size: 11px; z-index: 9999; pointer-events: none; letter-spacing: 0.5px;">
+        Copyright © 2026<br> SPK MODS
+    </div>
+   <!-- Import Feature Scripts -->
+    <script src="auth.js"></script>
+<script src="/pwa.js"></script>
+<script src="header.js"></script>
+<script src="player.js"></script>
+<script src="category.js"></script>
+<script src="info.js"></script>
+<script src="remote.js"></script>
+  <!-- MAIN CHANNEL LIST SCRIPT -->
+    <script src="main.js"></script>
+
+    <!-- NEW VPN FREE SCRIPT INJECTION -->
+    
+</body>
+</html>
